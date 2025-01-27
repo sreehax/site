@@ -1,0 +1,19 @@
+# Description
+base_url = "https://ssree.dev"
+title = "ssreedev"
+description = "ssreedev's website"
+default_language = "en"
+author = "ssreedev"
+
+compile_sass = true
+minify_html = true
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "ayu-dark"
+
+[extra]
+# Put all your custom variables here
