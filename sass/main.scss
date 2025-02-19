@@ -9,8 +9,8 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-html::selection {
-  background-color: var(--color-highlight);
+::selection {
+  //background-color: #ea70b4cc;
 }
 
 body {
