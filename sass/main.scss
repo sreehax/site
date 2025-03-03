@@ -9,10 +9,6 @@ html {
     -moz-osx-font-smoothing: grayscale;
 }
 
-::selection {
-  //background-color: #ea70b4cc;
-}
-
 body {
     font-family: $sansFont;
     color: var(--color-heading);
@@ -37,8 +33,6 @@ h2, h3, h4, h5, h6 {
 
 p {
     color: var(--color-heading);
-    --baseline-multiplier: 0.179;
-    --x-height-multiplier: 0.35;
 }
 
 a {
@@ -48,4 +42,57 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
+}
+
+.container {
+  width: 80vw;
+  margin: auto;
+}
+
+.blogpost-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .blogpost-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+article {
+  border: 2px solid #404449;
+  border-radius: 2px;
+  padding: 1rem;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  p.name {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .date {
+    font-family: "IBM Plex Mono";
+    font-size: 0.90rem;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  > a {
+    color: var(--color-heading);
+    text-decoration: none;
+  }
+}
+
+article:hover {
+  background-color: #404449;
 }
