@@ -1,15 +1,15 @@
 {
   lib,
   stdenvNoCC,
-  zola,
+  zine,
 }:
 stdenvNoCC.mkDerivation {
   pname = "ssree.dev";
   version = "0.0.1";
   src = ./.;
-  nativeBuildInputs = [ zola ];
+  nativeBuildInputs = [ zine ];
   buildPhase = ''
-    zola build
+    zine release
   '';
   installPhase = ''
     mkdir -p $out

@@ -1,0 +1,13 @@
+---
+.title = "Blog",
+.date = @date("2025-04-22T12:00:00"),
+.author = "Sreehari Sreedev",
+.layout = "blog.shtml",
+.alternatives = [{
+    .name = "rss",
+    .layout = "blog.xml",
+    .output = "index.xml",
+}],
+.draft = false,
+---
+Subscribe to the [RSS feed]($link.alternative('rss')) here.

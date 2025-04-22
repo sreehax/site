@@ -1,0 +1,15 @@
+---
+.title = "About Me",
+.date = @date("2025-04-22T12:00:00"),
+.author = "Sreehari Sreedev",
+.layout = "index.shtml",
+.draft = false,
+---
+Hey, I'm Sreehari. I like messing around with pretty much anything systems-level,
+so you'll see me doing a lot of OS development.
+
+I believe that everyone deserves to have
+[software that they can love](https://kristoff.it/blog/the-open-source-game/),
+rather than software that they are forced to use due to the lack of better alternatives.
+Being a founder at [Frostium Technologies](https://frostium.org), I am committed to
+building tools that truly serve the end user.
