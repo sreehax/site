@@ -63,5 +63,6 @@ Site {
         "merriweather/latin-normal.woff2",
         "merriweather/vietnamese-italic.woff2",
         "merriweather/vietnamese-normal.woff2",
+        "CNAME",
     ],
 }
